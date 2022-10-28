@@ -1,0 +1,26 @@
+CREATE DATABASE `sklep` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+use sklep;
+
+CREATE TABLE `produkty` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nazwa` varchar(45) DEFAULT NULL,
+  `zdjecie` varchar(45) DEFAULT NULL,
+  `opis` varchar(45) DEFAULT NULL,
+  `cena` float DEFAULT NULL,
+  `promocja` float DEFAULT NULL,
+  `zdjecie_d` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`,`zdjecie_d`) VALUES (1,'Miska dla chomika','chmiska.jpg','Miska dla małych i średnich gryzoni.',15,NULL,NULL);
+INSERT INTO `` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`,`zdjecie_d`) VALUES (2,'Akcesoria do akwarium','dakwarium.jpg','Dekoracja akwariowa.',70,30,'inne/dakwarium.png');
+INSERT INTO `` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`,`zdjecie_d`) VALUES (3,'Drapak dla kota','dkot.jpg','Bardzo estetyczny i trwały drapak dla kota.',170,80,'inne/dkot.png');
+INSERT INTO `` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`,`zdjecie_d`) VALUES (4,'Zabawka dla psa','ppilka.jpg','Wytrzymała piłka dla psa.',35,NULL,NULL);
+INSERT INTO `` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`,`zdjecie_d`) VALUES (5,'Huśtawka dla papugi','hpapuga.jpg','Doskonała zabawka dla papug i kanarków.',8,NULL,NULL);
+INSERT INTO `` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`,`zdjecie_d`) VALUES (6,'Hamak dla szczura','hszczur.jpg','Szczury uwielbiają wylegiwanie się w hamaku.',28,NULL,NULL);
+INSERT INTO `` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`,`zdjecie_d`) VALUES (7,'Szelki dla królika','szkr.jpg','Szelki do spacerowania z królikiem.',38,90,'inne/szkr.png');
+INSERT INTO `` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`,`zdjecie_d`) VALUES (8,'Zabawka dla kota','zkot.jpg','Nakręcana zabawka myszka dla kota.',15,NULL,NULL);
+INSERT INTO `` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`,`zdjecie_d`) VALUES (9,'Pluszak dla psa','zpies.jpg','Pluszowy misiu do zabawy z psem.',45,NULL,NULL);
+
+
